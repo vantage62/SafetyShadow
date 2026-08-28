@@ -1,36 +1,41 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PlantPulse
 
-## Getting Started
+> AI-powered plant monitoring system designed to help monitor plant health and provide intelligent insights.
 
-First, run the development server:
+## About
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**PlantPulse** is a project focused on using **Artificial Intelligence and technology to monitor the health and condition of plants**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This repository contains the **landing page website** created for the PlantPulse project.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The website was designed to present the idea, explain the problem being addressed, showcase the system, and provide a modern interface for the PlantPulse concept.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## The Idea
 
-To learn more about Next.js, take a look at the following resources:
+Traditional plant care often depends on manually checking plants and identifying problems after visible symptoms have already appeared.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+PlantPulse explores a more intelligent approach:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```text
+                  Plant
+                    │
+                    ▼
+              Data Collection
+                    │
+          ┌─────────┴─────────┐
+          │                   │
+       Sensors            Images/Data
+          │                   │
+          └─────────┬─────────┘
+                    │
+                    ▼
+                AI Analysis
+                    │
+                    ▼
+             Plant Health
+               Insights
+                    │
+                    ▼
+              Recommendations
