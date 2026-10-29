@@ -1,81 +1,81 @@
-const climateNewsArticles = [
+const fieldEvidenceArticles = [
   {
-    title: 'India\'s warming trend is reshaping planting windows',
-    summary: 'Researchers are tracking how hotter nights and longer heatwaves are forcing farmers to rethink sowing calendars.',
-    source: 'Down To Earth',
-    date: '02 Jun 2026',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=1200&q=80',
-    tag: 'Climate change in India',
+    title: '100% of Parents Surveyed Demand "Last Safe Point"',
+    summary: 'In an on-ground poll of 20 parents and educators at CM SHRI Yamuna Vihar, all 20 agreed a verified last-known safe coordinate is vastly superior to "Location Unknown".',
+    source: 'Shadow Squad Field Survey',
+    date: 'Oct 2026',
+    image: 'https://images.unsplash.com/photo-1577896851231-70ef18881754?auto=format&fit=crop&w=1200&q=80',
+    tag: 'Field Survey',
   },
   {
-    title: 'Crop productivity under pressure from erratic monsoons',
-    summary: 'Water timing has become as important as water volume, especially in rain-fed agricultural districts.',
-    source: 'The Hindu',
-    date: '29 May 2026',
-    image: 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=80',
-    tag: 'Crop productivity',
+    title: '90% Acknowledge Panic Freezes Motor Response',
+    summary: '18 of 20 respondents confirmed that children and victims in life-threatening distress cannot unlock a smartphone, navigate apps, or press tiny SOS buttons.',
+    source: 'Behavioral Study',
+    date: 'Oct 2026',
+    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1200&q=80',
+    tag: 'Crisis Psychology',
   },
   {
-    title: 'Why agricultural resilience now depends on micro-climate monitoring',
-    summary: 'Farmers and agri-tech teams are investing in better field-scale weather intelligence to reduce losses.',
-    source: 'Mongabay India',
-    date: '26 May 2026',
-    image: 'https://images.unsplash.com/photo-1466692476868-aef1dfb1f5f1?auto=format&fit=crop&w=1200&q=80',
-    tag: 'Agricultural resilience',
+    title: '1.05 Lakh Missing-Children Cases Reported Yearly in India',
+    summary: 'NCRB data underscores that search time in the first golden hour is decisive. Verified Last Safe Point timestamps provide police with actionable CCTV review times.',
+    source: 'NCRB Crime in India',
+    date: '2026 Report',
+    image: 'https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?auto=format&fit=crop&w=1200&q=80',
+    tag: 'National Data',
   },
   {
-    title: 'Biodiversity conservation and the shrinking habitat margin',
-    summary: 'Native species are under pressure as temperature bands move upward and rainfall becomes less stable.',
-    source: 'Nature India',
-    date: '21 May 2026',
-    image: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1200&q=80',
-    tag: 'Biodiversity conservation',
+    title: '14+ Crore Indian Children Commute to School Daily',
+    summary: 'UDISE+ estimates show over 14 crore students travelling daily, with 20+ lakh in Delhi alone. Most families cannot afford ₹5,000–₹10,000 smartwatches.',
+    source: 'UDISE+ Census',
+    date: 'Annual Bulletin',
+    image: 'https://images.unsplash.com/photo-1580582932707-520aed937b7b?auto=format&fit=crop&w=1200&q=80',
+    tag: 'Transit Scale',
   },
   {
-    title: 'Sustainable farming methods gain ground in dryland India',
-    summary: 'Mulching, shade systems, and smarter irrigation are helping communities adapt to heat and water stress.',
-    source: 'India Today',
-    date: '16 May 2026',
-    image: 'https://images.unsplash.com/photo-1500937386664-56d1dfef3854?auto=format&fit=crop&w=1200&q=80',
-    tag: 'Sustainable farming',
+    title: '1 in 3 Women Report Severe Anxiety on Public Transit',
+    summary: 'Delhi commuter studies show college girls and working women frequently face harassment in buses, Metros, and autos, requiring discreet, silent assistance.',
+    source: 'Delhi Transit Study',
+    date: 'Safe City Mission',
+    image: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80',
+    tag: 'Women Safety',
   },
   {
-    title: 'Policy moves toward climate-smart agriculture and water governance',
-    summary: 'Recent state and national policy updates are aligning subsidy, irrigation, and conservation goals.',
-    source: 'The Economic Times',
-    date: '12 May 2026',
-    image: 'https://images.unsplash.com/photo-1492496913980-501348b61469?auto=format&fit=crop&w=1200&q=80',
-    tag: 'Environmental policy',
+    title: 'Privacy by Design under India\'s DPDP Act 2023',
+    summary: '80% of parents reject continuous surveillance. Safety Shadow stores only local route vectors taken every 10 minutes, ensuring strict legal data compliance.',
+    source: 'DPDP Act Compliance',
+    date: 'Statutory Review',
+    image: 'https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&w=1200&q=80',
+    tag: 'Data Privacy',
   },
 ];
 
 export function ClimateNewsSection() {
   return (
-    <section className="relative z-20 bg-[#020202] pt-24 pb-32 px-4 md:px-8 lg:px-16 border-t border-white/5 overflow-hidden">
+    <section id="evidence" className="relative z-20 bg-[#020202] pt-24 pb-32 px-4 md:px-8 lg:px-16 border-t border-white/5 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute right-0 top-0 h-80 w-80 rounded-full bg-[#047857]/10 blur-[120px] opacity-50" />
+        <div className="absolute right-0 top-0 h-80 w-80 rounded-full bg-zinc-400/10 blur-[120px] opacity-40" />
       </div>
 
       <div className="max-w-7xl mx-auto relative z-10">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-12">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/[0.03] border border-white/10 px-4 py-2 text-xs text-[#10b981] font-mono tracking-[0.2em] uppercase mb-6">
-              Research Feed
+            <div className="inline-flex items-center gap-2 rounded-full bg-white/[0.03] border border-white/10 px-4 py-2 text-xs text-zinc-400 font-mono tracking-[0.2em] uppercase mb-6">
+              Voices From the Field
             </div>
             <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter text-white mb-4">
-              Latest Climate & Agriculture Updates
+              Ground Reality & Research Evidence
             </h2>
             <p className="text-white/50 text-base md:text-lg leading-relaxed max-w-3xl">
-              Placeholder and demo articles focused on climate change in India, crop productivity, agricultural resilience, biodiversity conservation, sustainable farming, and environmental policy.
+              Survey data gathered by Shadow Squad from parents, students, and teachers in Delhi, supported by national statistics from NCRB and UDISE+.
             </p>
           </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-          {climateNewsArticles.map((article) => (
+          {fieldEvidenceArticles.map((article) => (
             <article
               key={article.title}
-              className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:-translate-y-1 hover:border-[#10b981]/30 hover:bg-white/[0.05]"
+              className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.03] transition-all duration-500 hover:-translate-y-1 hover:border-zinc-400/30 hover:bg-white/[0.05]"
             >
               <div className="relative aspect-[16/10] overflow-hidden">
                 <img
@@ -98,17 +98,14 @@ export function ClimateNewsSection() {
                 <h3 className="text-2xl font-semibold tracking-tight text-white mb-3 leading-tight">
                   {article.title}
                 </h3>
-                <p className="text-white/55 leading-relaxed mb-6">
+                <p className="text-white/55 leading-relaxed mb-6 text-sm">
                   {article.summary}
                 </p>
 
-                <a
-                  href="#"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-sm font-medium text-white transition-all duration-300 hover:border-[#10b981]/35 hover:bg-[#10b981]/10 hover:text-[#10b981] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#10b981]/60"
-                >
-                  Read More
+                <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.04] px-4 py-2 text-xs font-medium text-white/80 transition-all duration-300 group-hover:border-zinc-400/40 group-hover:bg-zinc-400/10 group-hover:text-zinc-200">
+                  Verified Finding
                   <span aria-hidden="true">→</span>
-                </a>
+                </div>
               </div>
             </article>
           ))}

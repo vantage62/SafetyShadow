@@ -18,11 +18,11 @@ export function LoaderProvider({ children }: { children: React.ReactNode }) {
   const [isIntroComplete, setIntroComplete] = useState(false);
   const imagesRef = useRef<HTMLImageElement[]>([]);
 
-  const frameCount = 329;
+  const frameCount = 193;
 
   useEffect(() => {
     const currentFrame = (index: number) => 
-      `/frames/frame_${(index + 1).toString().padStart(6, '0')}.webp`;
+      `/frames/frame_${(index + 1).toString().padStart(4, '0')}.webp`;
 
     let loadedCount = 0;
     const handleLoadOrError = () => {

@@ -85,8 +85,8 @@ body {
 }
 
 .leaflet-control-zoom a:hover {
-  background: rgba(16, 185, 129, 0.16) !important;
-  color: #10b981 !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+  color: #e4e4e7 !important;
 }
 
 .leaflet-control-zoom a:last-child {
@@ -96,14 +96,14 @@ body {
 .leaflet-tooltip.climate-map-tooltip {
   background: rgba(8, 8, 8, 0.96);
   color: #f5f5f5;
-  border: 1px solid rgba(16, 185, 129, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 0.9rem;
   box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
   padding: 0.7rem 0.8rem;
 }
 
 .leaflet-tooltip.climate-map-tooltip:before {
-  border-top-color: rgba(16, 185, 129, 0.35);
+  border-top-color: rgba(255, 255, 255, 0.2);
 }
 
 .leaflet-tooltip.climate-map-tooltip .leaflet-tooltip-content {

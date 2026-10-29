@@ -91,20 +91,20 @@ export function IntroLoader() {
 
   return (
     <div ref={containerRef} className="fixed inset-0 z-50 flex items-center justify-center bg-black pointer-events-none">
-      <div ref={dotRef} className="w-2 h-2 rounded-full bg-[#10b981] absolute"></div>
+      <div ref={dotRef} className="w-2 h-2 rounded-full bg-zinc-300 absolute"></div>
       <div ref={lineContainerRef} className="h-[2px] w-0 opacity-0 relative overflow-hidden bg-white/10">
          <div 
            ref={lineProgressRef} 
-           className="absolute top-0 left-0 h-full w-full bg-[#10b981] origin-left scale-x-0"
+           className="absolute top-0 left-0 h-full w-full bg-zinc-300 origin-left scale-x-0"
          />
       </div>
       <div 
         ref={topHalfRef} 
-        className="absolute top-1/2 left-0 w-full h-[1px] bg-[#10b981] opacity-0"
+        className="absolute top-1/2 left-0 w-full h-[1px] bg-zinc-300 opacity-0"
       />
       <div 
         ref={bottomHalfRef} 
-        className="absolute top-[calc(50%+1px)] left-0 w-full h-[1px] bg-[#10b981] opacity-0"
+        className="absolute top-[calc(50%+1px)] left-0 w-full h-[1px] bg-zinc-300 opacity-0"
       />
     </div>
   );

@@ -6,8 +6,8 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'PlantPulse - The Operating System for Plant Intelligence',
-  description: 'Measure what human eyes cannot. PlantPulse creates advanced monitoring devices that measure plant health, environmental conditions, and soil metrics with laboratory precision.',
+  title: 'Safety Shadow — A Privacy-First Silent Guardian',
+  description: 'Not just an alarm. A guardian that notices. Safety Shadow is a ₹1,500 wrist band that detects route deviations and falls, checks in with a silent buzz, and hands families and police a "Last Safe Point" instead of "Location Unknown".',
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark" suppressHydrationWarning>
-      <body className={`${inter.variable} font-sans bg-black text-white antialiased selection:bg-[#10b981] selection:text-black`} suppressHydrationWarning>
+      <body className={`${inter.variable} font-sans bg-black text-white antialiased selection:bg-zinc-300 selection:text-black`} suppressHydrationWarning>
         {children}
       </body>
     </html>

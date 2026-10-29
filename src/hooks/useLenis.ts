@@ -15,8 +15,10 @@ export function useLenis() {
 
     const lenis = new Lenis({
       smoothWheel: true,
-      wheelMultiplier: 1.2,
-      touchMultiplier: 2,
+      wheelMultiplier: 1.0,
+      touchMultiplier: 1.5,
+      duration: 1.2,
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
     });
 
     lenisRef.current = lenis;
